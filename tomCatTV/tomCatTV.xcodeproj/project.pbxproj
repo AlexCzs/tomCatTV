@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F66301B1DC36F3E00D6ED5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66301A1DC36F3E00D6ED5C /* AppDelegate.swift */; };
-		9F66301D1DC36F3E00D6ED5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66301C1DC36F3E00D6ED5C /* ViewController.swift */; };
-		9F6630201DC36F3E00D6ED5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66301E1DC36F3E00D6ED5C /* Main.storyboard */; };
-		9F6630221DC36F3E00D6ED5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6630211DC36F3E00D6ED5C /* Assets.xcassets */; };
-		9F6630251DC36F3E00D6ED5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6630231DC36F3E00D6ED5C /* LaunchScreen.storyboard */; };
 		9F6630301DC36F3E00D6ED5C /* tomCatTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66302F1DC36F3E00D6ED5C /* tomCatTVTests.swift */; };
 		9F66303B1DC36F3E00D6ED5C /* tomCatTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66303A1DC36F3E00D6ED5C /* tomCatTVUITests.swift */; };
+		9F6630531DC3731C00D6ED5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66304E1DC3731C00D6ED5C /* AppDelegate.swift */; };
+		9F6630541DC3731C00D6ED5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F66304F1DC3731C00D6ED5C /* Assets.xcassets */; };
+		9F6630551DC3731C00D6ED5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6630501DC3731C00D6ED5C /* LaunchScreen.storyboard */; };
+		9F6630561DC3731C00D6ED5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6630521DC3731C00D6ED5C /* Info.plist */; };
+		9F6630581DC3734700D6ED5C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6630571DC3734700D6ED5C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,17 @@
 
 /* Begin PBXFileReference section */
 		9F6630171DC36F3E00D6ED5C /* tomCatTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomCatTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F66301A1DC36F3E00D6ED5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F66301C1DC36F3E00D6ED5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F66301F1DC36F3E00D6ED5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F6630211DC36F3E00D6ED5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F6630241DC36F3E00D6ED5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9F6630261DC36F3E00D6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F66302B1DC36F3E00D6ED5C /* tomCatTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomCatTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66302F1DC36F3E00D6ED5C /* tomCatTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomCatTVTests.swift; sourceTree = "<group>"; };
 		9F6630311DC36F3E00D6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F6630361DC36F3E00D6ED5C /* tomCatTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomCatTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66303A1DC36F3E00D6ED5C /* tomCatTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomCatTVUITests.swift; sourceTree = "<group>"; };
 		9F66303C1DC36F3E00D6ED5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F66304E1DC3731C00D6ED5C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F66304F1DC3731C00D6ED5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6630511DC3731C00D6ED5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6630521DC3731C00D6ED5C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6630571DC3734700D6ED5C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +96,7 @@
 		9F6630191DC36F3E00D6ED5C /* tomCatTV */ = {
 			isa = PBXGroup;
 			children = (
-				9F66301A1DC36F3E00D6ED5C /* AppDelegate.swift */,
-				9F66301C1DC36F3E00D6ED5C /* ViewController.swift */,
-				9F66301E1DC36F3E00D6ED5C /* Main.storyboard */,
-				9F6630211DC36F3E00D6ED5C /* Assets.xcassets */,
-				9F6630231DC36F3E00D6ED5C /* LaunchScreen.storyboard */,
-				9F6630261DC36F3E00D6ED5C /* Info.plist */,
+				9F6630481DC3731C00D6ED5C /* TVClasses */,
 			);
 			path = tomCatTV;
 			sourceTree = "<group>";
@@ -123,6 +117,58 @@
 				9F66303C1DC36F3E00D6ED5C /* Info.plist */,
 			);
 			path = tomCatTVUITests;
+			sourceTree = "<group>";
+		};
+		9F6630481DC3731C00D6ED5C /* TVClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9F6630491DC3731C00D6ED5C /* Code */,
+				9F66304D1DC3731C00D6ED5C /* others */,
+			);
+			path = TVClasses;
+			sourceTree = "<group>";
+		};
+		9F6630491DC3731C00D6ED5C /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				9F66304A1DC3731C00D6ED5C /* Controller */,
+				9F66304B1DC3731C00D6ED5C /* Model */,
+				9F66304C1DC3731C00D6ED5C /* View */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		9F66304A1DC3731C00D6ED5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F6630571DC3734700D6ED5C /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F66304B1DC3731C00D6ED5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F66304C1DC3731C00D6ED5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F66304D1DC3731C00D6ED5C /* others */ = {
+			isa = PBXGroup;
+			children = (
+				9F6630521DC3731C00D6ED5C /* Info.plist */,
+				9F66304E1DC3731C00D6ED5C /* AppDelegate.swift */,
+				9F66304F1DC3731C00D6ED5C /* Assets.xcassets */,
+				9F6630501DC3731C00D6ED5C /* LaunchScreen.storyboard */,
+			);
+			path = others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +239,7 @@
 				TargetAttributes = {
 					9F6630161DC36F3E00D6ED5C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B8HZW7EGB2;
 						ProvisioningStyle = Automatic;
 					};
 					9F66302A1DC36F3E00D6ED5C = {
@@ -232,9 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6630251DC36F3E00D6ED5C /* LaunchScreen.storyboard in Resources */,
-				9F6630221DC36F3E00D6ED5C /* Assets.xcassets in Resources */,
-				9F6630201DC36F3E00D6ED5C /* Main.storyboard in Resources */,
+				9F6630541DC3731C00D6ED5C /* Assets.xcassets in Resources */,
+				9F6630551DC3731C00D6ED5C /* LaunchScreen.storyboard in Resources */,
+				9F6630561DC3731C00D6ED5C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F66301D1DC36F3E00D6ED5C /* ViewController.swift in Sources */,
-				9F66301B1DC36F3E00D6ED5C /* AppDelegate.swift in Sources */,
+				9F6630531DC3731C00D6ED5C /* AppDelegate.swift in Sources */,
+				9F6630581DC3734700D6ED5C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,18 +343,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F66301E1DC36F3E00D6ED5C /* Main.storyboard */ = {
+		9F6630501DC3731C00D6ED5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F66301F1DC36F3E00D6ED5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9F6630231DC36F3E00D6ED5C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6630241DC36F3E00D6ED5C /* Base */,
+				9F6630511DC3731C00D6ED5C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -412,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = tomCatTV/Info.plist;
+				DEVELOPMENT_TEAM = B8HZW7EGB2;
+				INFOPLIST_FILE = tomCatTV/TVClasses/others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.shenshen.com.im.tomCatTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +465,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = tomCatTV/Info.plist;
+				DEVELOPMENT_TEAM = B8HZW7EGB2;
+				INFOPLIST_FILE = tomCatTV/TVClasses/others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.shenshen.com.im.tomCatTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
